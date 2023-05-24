@@ -1,0 +1,15 @@
+.content {
+    grid-area: container;
+    display: grid;
+    /* width: 80%; */
+    grid-template-areas: 
+    "card card card"
+    "card card card"
+    "card card card"
+    "card card card"
+    "card card card"
+    "card card card"
+    "card card card" 
+    ;
+    margin: auto;
+  }
