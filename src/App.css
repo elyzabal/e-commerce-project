@@ -39,7 +39,7 @@
 @media (max-width: 767px) {
   .el-wrapper {
     width: 290px;
-    margin: 30px auto;
+    margin: 30px 10px;
   }
 }
 
@@ -124,11 +124,11 @@
   -o-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
   transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
   /* ease-out */
-  width: 660px;
+  width: 540px;
   height: 100%;
-  background-color: #3f96cd;
+  background-color: #252525;
   position: absolute;
-  left: -659px;
+  left: -540px;
 }
 
 .h-bg .h-bg-inner {
@@ -192,7 +192,7 @@
   display: block;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 125%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
@@ -222,7 +222,7 @@
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  transform: translate(-120%, -50%);
 }
 
 .cart .add-to-cart .txt {
@@ -233,3 +233,24 @@
   white-space: nowrap;
 }
 
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.align-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-centerY-centerX {
+  justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
